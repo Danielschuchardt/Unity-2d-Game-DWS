@@ -19,7 +19,7 @@ public class SoundManager : MonoBehaviour
         }
         else
         {
-            Destroy(this.gameObject)
+            Destroy(this.gameObject);
         }
     }
     public void PlayCoinCollect()
