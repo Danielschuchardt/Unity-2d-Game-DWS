@@ -32,5 +32,15 @@ public class CollectibleManager : MonoBehaviour
     {
         _collectedCoins++;
         DisplayCoinCount();
+<<<<<<< Updated upstream
+=======
+        if (_collectedCoins == _totalCoins)
+        {
+            Youwinmenu.Instance.Show();
+        }
+
+        SoundManager.Instance.PlayCoinCollect();
+
+>>>>>>> Stashed changes
     }
 }
